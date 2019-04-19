@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeChatXLogEnabler.iml" filepath="$PROJECT_DIR$/WeChatXLogEnabler.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spellbook/spellbook.iml" filepath="$PROJECT_DIR$/spellbook/spellbook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wechatHook.iml" filepath="$PROJECT_DIR$/wechatHook.iml" />
     </modules>
   </component>
 </project>
