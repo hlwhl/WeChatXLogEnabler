@@ -5,7 +5,9 @@ android:
     - android-28
     - add-on
     - extra
-  licenses:
-    - 'android-sdk-preview-license-52d11cd2'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+
+    before_install:
+      - chmod +x gradlew  # 改变gradlew的访问权限
+
+    script:              # 执行:下面的命令
+      - ./gradlew assembleRelease
