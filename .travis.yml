@@ -8,6 +8,7 @@ android:
 
     before_install:
       - chmod +x gradlew  # 改变gradlew的访问权限
+      - yes | sdkmanager "platforms;android-28"
 
     script:              # 执行:下面的命令
       - ./gradlew assembleRelease
